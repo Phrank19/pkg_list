@@ -74,6 +74,7 @@ cabextract					install
 caca-utils					install
 catatonit					install
 chafa						install
+checkpolicy					install
 cheese						install
 cheese-common					install
 chrome-gnome-shell				install
@@ -98,6 +99,7 @@ containers-common				install
 coreutils					install
 cpio						install
 cpp						install
+cpp-10						install
 cpp-11						install
 cracklib-runtime				install
 criu						install
@@ -287,6 +289,8 @@ gamemode					install
 gamemode-daemon					install
 gawk						install
 gcc						install
+gcc-10						install
+gcc-10-base:amd64				install
 gcc-11						install
 gcc-11-base:amd64				install
 gcc-12-base:amd64				install
@@ -303,6 +307,7 @@ gedit-common					install
 genisoimage					install
 geoclue-2.0					install
 gettext-base					install
+gfortran-10					install
 ghostscript					install
 ghostscript-x					install
 gir1.2-accountsservice-1.0:amd64		install
@@ -425,6 +430,7 @@ gpgsm						install
 gpgv						install
 grep						install
 grilo-plugins-0.3-base:amd64			install
+groff						install
 groff-base					install
 grub-common					install
 grub-efi-amd64-bin				install
@@ -567,6 +573,7 @@ libatspi2.0-0:amd64				install
 libattr1:amd64					install
 libaudit-common					install
 libaudit1:amd64					install
+libauparse0:amd64				install
 libauthen-sasl-perl				install
 libavahi-client3:amd64				install
 libavahi-common-data:amd64			install
@@ -793,6 +800,7 @@ libgamemodeauto0:amd64				install
 libgbm1:amd64					install
 libgc1:amd64					install
 libgcab-1.0-0:amd64				install
+libgcc-10-dev:amd64				install
 libgcc-11-dev:amd64				install
 libgcc-s1:amd64					install
 libgck-1-0:amd64				install
@@ -816,6 +824,7 @@ libgeoclue-2-0:amd64				install
 libgeocode-glib0:amd64				install
 libgexiv2-2:amd64				install
 libgfapi0:amd64					install
+libgfortran-10-dev:amd64			install
 libgfortran5:amd64				install
 libgfrpc0:amd64					install
 libgfxdr0:amd64					install
@@ -1092,7 +1101,6 @@ libntfs-3g89					install
 libnuma1:amd64					install
 libodfgen-0.1-1:amd64				install
 libogg0:amd64					install
-libonig5:amd64					install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
 libopenexr25:amd64				install
@@ -1179,8 +1187,6 @@ libqmi-glib5:amd64				install
 libqmi-proxy					install
 libqpdf28:amd64					install
 libqqwing2v5:amd64				install
-libqt5core5a:amd64				deinstall
-libqt5gui5:amd64				deinstall
 libquadmath0:amd64				install
 librabbitmq4:amd64				install
 librados2					install
@@ -1477,7 +1483,7 @@ libyajl2:amd64					install
 libyaml-0-2:amd64				install
 libyelp0:amd64					install
 libzimg2:amd64					install
-libzip4:amd64					install
+libzip4:amd64					deinstall
 libzmq5:amd64					install
 libzstd1:amd64					install
 libzvbi-common					install
@@ -1516,6 +1522,7 @@ lshw						install
 lsof						install
 lto-disabled-list				install
 lvm2						install
+m4						install
 mailcap						install
 make						install
 man-db						install
@@ -1613,11 +1620,17 @@ plymouth-theme-ubuntu-text			install
 pocketsphinx-en-us				install
 podman						install
 podman-gvproxy					install
+policycoreutils					install
+policycoreutils-dbus				install
+policycoreutils-dev				install
+policycoreutils-gui				install
+policycoreutils-python-utils			install
 policykit-1					install
 policykit-desktop-privileges			install
 polkitd						install
 poppler-data					install
 poppler-utils					install
+postfix-doc					install
 power-profiles-daemon				install
 powermgmt-base					install
 ppp						install
@@ -1637,6 +1650,7 @@ printer-driver-sag-gdi				install
 printer-driver-splix				install
 procps						install
 psmisc						install
+psutils						install
 publicsuffix					install
 pulseaudio					install
 pulseaudio-module-bluetooth			install
@@ -1648,6 +1662,7 @@ python3-apt					install
 python3-aptdaemon				install
 python3-aptdaemon.gtk3widgets			install
 python3-attr					install
+python3-audit					install
 python3-bcrypt					install
 python3-blinker					install
 python3-brlapi:amd64				install
@@ -1707,7 +1722,9 @@ python3-monotonic				install
 python3-more-itertools				install
 python3-nacl					install
 python3-netifaces:amd64				install
+python3-networkx				install
 python3-nftables				install
+python3-numpy					install
 python3-oauthlib				install
 python3-olefile					install
 python3-paramiko				install
@@ -1732,6 +1749,11 @@ python3-requests-toolbelt			install
 python3-rfc3339					install
 python3-samba					install
 python3-secretstorage				install
+python3-selinux					install
+python3-semanage				install
+python3-sepolgen				install
+python3-sepolicy				install
+python3-setools					install
 python3-setuptools				install
 python3-six					install
 python3-software-properties			install
@@ -1790,8 +1812,14 @@ sbsigntool					install
 seahorse					install
 secureboot-db					install
 sed						install
+selinux-basics					install
+selinux-policy-default				install
+selinux-policy-dev				install
+selinux-utils					install
+semodule-utils					install
 sensible-utils					install
 session-migration				install
+setools						install
 sgml-base					install
 sgml-data					install
 shared-mime-info				install
