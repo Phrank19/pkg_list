@@ -37,6 +37,7 @@ aspell						install
 aspell-en					install
 at-spi2-core					install
 attr						install
+auditd						install
 avahi-autoipd					install
 avahi-daemon					install
 avahi-utils					install
