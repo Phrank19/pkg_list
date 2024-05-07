@@ -77,7 +77,6 @@ ca-certificates					install
 cabextract					install
 caca-utils					install
 catatonit					install
-catdoc						install
 chafa						install
 checkpolicy					install
 cheese						install
@@ -85,8 +84,6 @@ cheese-common					install
 chrome-gnome-shell				install
 chromium-codecs-ffmpeg-extra			install
 cifs-utils					install
-cinnamon-desktop-data				install
-cinnamon-l10n					install
 cockpit						install
 cockpit-bridge					install
 cockpit-networkmanager				install
@@ -169,7 +166,6 @@ evince						install
 evince-common					install
 evolution-data-server				install
 evolution-data-server-common			install
-exif						install
 fakeroot					install
 fdisk						install
 file						install
@@ -374,7 +370,6 @@ gir1.2-upowerglib-1.0:amd64			install
 gir1.2-vte-2.91:amd64				install
 gir1.2-webkit2-4.0:amd64			install
 gir1.2-wnck-3.0:amd64				install
-gist						install
 git						install
 git-man						install
 gjs						install
@@ -489,7 +484,6 @@ hplip-data					install
 htop						install
 humanity-icon-theme				install
 hunspell-en-us					install
-hwdata						install
 hyphen-en-us					install
 i965-va-driver:amd64				install
 ibus						install
@@ -499,7 +493,6 @@ ibus-gtk3:amd64					install
 ibus-gtk4:amd64					install
 ibus-table					install
 ibverbs-providers:amd64				install
-id3						install
 ieee-data					install
 iio-sensor-proxy				install
 im-config					install
@@ -516,7 +509,6 @@ inputattach					install
 install-info					install
 intel-media-va-driver:amd64			install
 intel-microcode					install
-inxi						install
 ipp-usb						install
 iproute2					install
 ipset						install
@@ -677,7 +669,6 @@ libchafa0:amd64					install
 libcheese-gtk25:amd64				install
 libcheese8:amd64				install
 libchromaprint1:amd64				install
-libcinnamon-desktop4:amd64			install
 libclone-perl					install
 libclucene-contribs1v5:amd64			install
 libclucene-core1v5:amd64			install
@@ -822,7 +813,6 @@ libfuse2:amd64					install
 libfuse3-3:amd64				install
 libfwupd2:amd64					install
 libfwupdplugin5:amd64				install
-libgail-3-0:amd64				install
 libgail-common:amd64				install
 libgail18:amd64					install
 libgamemode0:amd64				install
@@ -1112,7 +1102,6 @@ libncurses6:i386				install
 libncursesw6:amd64				install
 libndctl6:amd64					install
 libndp0:amd64					install
-libnemo-extension1:amd64			install
 libnet-dbus-perl				install
 libnet-http-perl				install
 libnet-smtp-ssl-perl				install
@@ -1148,6 +1137,7 @@ libnss-nis:i386					install
 libnss-nisplus:i386				install
 libnss-systemd:amd64				install
 libnss3:amd64					install
+libntfs-3g89					install
 libnuma1:amd64					install
 libodfgen-0.1-1:amd64				install
 libogg0:amd64					install
@@ -1471,20 +1461,19 @@ libwnck-3-0:amd64				install
 libwnck-3-common				install
 libwoff1:amd64					install
 libwpd-0.10-10:amd64				install
-libwpe-1.0-1:amd64				install
-libwpebackend-fdo-1.0-1:amd64			install
 libwpg-0.3-3:amd64				install
 libwps-0.4-4:amd64				install
 libwrap0:amd64					install
 libwww-perl					install
 libwww-robotrules-perl				install
+libwxbase3.0-0v5:amd64				install
+libwxgtk3.0-gtk3-0v5:amd64			install
 libx11-6:amd64					install
 libx11-data					install
 libx11-protocol-perl				install
 libx11-xcb1:amd64				install
 libx264-163:amd64				install
 libx265-199:amd64				install
-libxapp1:amd64					install
 libxatracker2:amd64				install
 libxau6:amd64					install
 libxaw7:amd64					install
@@ -1684,7 +1673,6 @@ ncdu						install
 ncurses-base					install
 ncurses-bin					install
 ncurses-term					install
-nemo-data					install
 neofetch					install
 netavark					install
 netbase						install
@@ -1704,9 +1692,8 @@ nfs-kernel-server				install
 nftables					install
 nmap						install
 nmap-common					install
-ntfs-3g						deinstall
+ntfs-3g						install
 ocl-icd-libopencl1:amd64			install
-odt2txt						install
 openprinting-ppds				install
 openssh-client					install
 openssh-server					install
@@ -1717,6 +1704,8 @@ orca						install
 os-prober					install
 p11-kit						install
 p11-kit-modules:amd64				install
+p7zip						install
+p7zip-full					install
 packagekit					install
 packagekit-tools				install
 parted						install
@@ -1778,8 +1767,6 @@ publicsuffix					install
 pulseaudio					install
 pulseaudio-module-bluetooth			install
 pulseaudio-utils				install
-putty						install
-putty-tools					install
 python-apt-common				install
 python-babel-localedata				install
 python3						install
@@ -1907,9 +1894,9 @@ python3-urllib3					install
 python3-wadllib					install
 python3-wheel					install
 python3-winrm					install
+python3-wxgtk4.0				install
 python3-xdg					install
 python3-xkit					install
-python3-xlrd					install
 python3-xmltodict				install
 python3-yaml					install
 python3-zipp					install
@@ -2027,7 +2014,6 @@ tracker-extract					install
 tracker-miner-fs				install
 transmission-common				install
 transmission-gtk				install
-tree						install
 ttf-mscorefonts-installer			install
 tuned						install
 tzdata						install
@@ -2102,8 +2088,6 @@ x11-session-utils				install
 x11-utils					install
 x11-xkb-utils					install
 x11-xserver-utils				install
-xapp						install
-xapps-common					install
 xauth						install
 xbitmaps					install
 xbrlapi						install
