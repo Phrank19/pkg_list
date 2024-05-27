@@ -284,6 +284,7 @@ fonts-urw-base35				install
 fonts-yrsa-rasa					install
 foomatic-db-compressed-ppds			install
 fprintd						install
+freerdp2-x11					install
 friendly-recovery				install
 ftp						install
 fuse						deinstall
@@ -1551,11 +1552,11 @@ libzzip-0-13:amd64				install
 linux-base					install
 linux-firmware					install
 linux-generic-hwe-22.04				install
-linux-headers-6.5.0-27-generic			install
 linux-headers-6.5.0-28-generic			install
+linux-headers-6.5.0-35-generic			install
 linux-headers-generic-hwe-22.04			install
-linux-hwe-6.5-headers-6.5.0-27			install
 linux-hwe-6.5-headers-6.5.0-28			install
+linux-hwe-6.5-headers-6.5.0-35			install
 linux-image-5.19.0-32-generic			deinstall
 linux-image-5.19.0-38-generic			deinstall
 linux-image-5.19.0-40-generic			deinstall
@@ -1572,8 +1573,9 @@ linux-image-6.5.0-18-generic			deinstall
 linux-image-6.5.0-21-generic			deinstall
 linux-image-6.5.0-25-generic			deinstall
 linux-image-6.5.0-26-generic			deinstall
-linux-image-6.5.0-27-generic			install
+linux-image-6.5.0-27-generic			deinstall
 linux-image-6.5.0-28-generic			install
+linux-image-6.5.0-35-generic			install
 linux-image-generic-hwe-22.04			install
 linux-libc-dev:amd64				install
 linux-modules-5.19.0-32-generic			deinstall
@@ -1592,8 +1594,9 @@ linux-modules-6.5.0-18-generic			deinstall
 linux-modules-6.5.0-21-generic			deinstall
 linux-modules-6.5.0-25-generic			deinstall
 linux-modules-6.5.0-26-generic			deinstall
-linux-modules-6.5.0-27-generic			install
+linux-modules-6.5.0-27-generic			deinstall
 linux-modules-6.5.0-28-generic			install
+linux-modules-6.5.0-35-generic			install
 linux-modules-extra-5.19.0-32-generic		deinstall
 linux-modules-extra-5.19.0-38-generic		deinstall
 linux-modules-extra-5.19.0-40-generic		deinstall
@@ -1610,8 +1613,9 @@ linux-modules-extra-6.5.0-18-generic		deinstall
 linux-modules-extra-6.5.0-21-generic		deinstall
 linux-modules-extra-6.5.0-25-generic		deinstall
 linux-modules-extra-6.5.0-26-generic		deinstall
-linux-modules-extra-6.5.0-27-generic		install
+linux-modules-extra-6.5.0-27-generic		deinstall
 linux-modules-extra-6.5.0-28-generic		install
+linux-modules-extra-6.5.0-35-generic		install
 linux-sound-base				install
 lm-sensors					install
 lmodern						install
